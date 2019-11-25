@@ -15,7 +15,7 @@ export class AdminComponent implements OnInit {
     this.getBikes();
   }
 
-  getBikes(){
+  getBikes() {
     this.bikeService.getBikes().subscribe(
       data => { this.bikes = data; },
       err => console.error(err),
