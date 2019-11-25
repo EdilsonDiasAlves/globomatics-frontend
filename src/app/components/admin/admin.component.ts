@@ -1,4 +1,4 @@
-import { BikeService } from '../../services/bike.service';
+import { BikeService } from './../../services/bike.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
