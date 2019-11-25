@@ -12,7 +12,7 @@ export class BikeService {
 
   constructor(private http: HttpClient) { }
 
-  getBikes(){
+  getBikes() {
     return this.http.get('/server/api/v1/bikes');
   }
 
